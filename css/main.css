@@ -1,0 +1,52 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: black url(/images/tim.jpg) scroll no-repeat center center;
+    height: 100%;
+    min-height: 100%;
+}
+
+#links
+{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 900px;
+    text-align: right;
+}
+
+#links > div
+{
+    margin: 10px;
+}
+
+
+@media (max-height: 700px)
+{
+    body
+    {
+        background: black url(/images/tim_1200.jpg) scroll no-repeat center center;
+    }
+}
+
+@media (max-height: 640px)
+{
+    body
+    {
+        background: black url(/images/tim_1000.jpg) scroll no-repeat center center;
+    }
+}
+
+@media (max-height: 500px)
+{
+    body
+    {
+        background: black url(/images/tim_800.jpg) scroll no-repeat center center;
+    }
+
+    svg
+    {
+        width: 32px;
+    }
+}
